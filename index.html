@@ -19,17 +19,23 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
-        <a href="#" class="navbar-brad"><img src="" /></a>
-        <button
+        <a href="#" class="navbar-brand"><img src="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarResponsive"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav  text-center"> <!-- або ml-auto -->
             <li class="nav-item active">
               <a href="#" class="nav-link">Main</a>
             </li>
@@ -52,7 +58,7 @@
     <h1 class="text-center">TEST Accordion</h1>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
